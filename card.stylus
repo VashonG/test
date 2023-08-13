@@ -1,0 +1,58 @@
+body
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+  font-family: 'Varela Round', sans-serif
+  
+*, *:before, *:after
+  box-sizing: border-box
+  
+.card
+  position: absolute
+  top: calc(50% - 125px)
+  left: calc(50% - 196px)
+  width: 392px
+  height: 250px
+  background-image: linear-gradient(to bottom right, #F4F2F3, #D5D3D4)
+  border-radius: 14px
+  transform-style: preserve-3d
+  transform: rotateX(16deg) rotateY(16deg) rotate(-16deg)
+  box-shadow: -2px 2px 0px darken(#D5D3D4, 8%)
+  
+  .apple
+    position: absolute
+    background-image: "https://uploads-ssl.webflow.com/64745600107043aab0d825bf/64d86ce9f7750b8bcb2abca6_Group%201054.svg"
+    top: 24px
+    left: 30px
+    font-size: 68px
+    color: #f0eeef
+    text-shadow: 0 -1px 0 #6F7376, 0 1px 0 #6F7376, -1px -1px 0 rgba(white,.5)
+    
+   .name
+     position: absolute
+     top: 150px
+     left: 30px
+     font-size: 18px
+     font-weight: bold
+     color: #6F7376
+     letter-spacing: .04em
+     
+   .chip
+     position: absolute
+     top: 123px
+     left: 294px
+     width: 60px
+     height: 43px
+     background-image: linear-gradient(to bottom right, #EBE8E1, #B8B3AF);
+     box-shadow: inset -1px 1px 0 0 rgba(black,.1), inset 1px 1px 0 0 rgba(white,.3);
+     border-radius: 8px
+     padding: 4px 4px 3px 4px
+     span
+       width: 23px
+       height: 11px
+       border: 1px solid #7c7a76
+       border-radius: 8px
+       float: left
+       margin-bottom: 1px
+       &:nth-child(odd)
+         margin-right: 6px
+     
